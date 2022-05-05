@@ -45,8 +45,8 @@ const BarGraph = styled.div`
   top: 0;
   /* 기존 방법 */
   /* width: ${({ width }) => width}%; */
-  width: 100%;
   /* transform을 통한 애니메이션 최적화 */
+  width: 100%;
   transform-origin: center left;
   transform: scaleX(${(props) => props.width / 100});
   transition: transform 1.5s ease;
